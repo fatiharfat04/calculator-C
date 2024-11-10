@@ -30,7 +30,7 @@ void main(){
         printf("%i", angka1 * angka2);
         break;
     case '/':
-        printf("%i", angka1 / angka2);
+        printf("%.2f", (float) angka1 / (float) angka2);
         break;
     
     default:
